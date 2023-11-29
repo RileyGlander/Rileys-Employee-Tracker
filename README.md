@@ -2,8 +2,11 @@
 
 ## Description
 -What was your motivation? My motivation to enhance my understanding of SQL while creating a tool beneficial for employers.
+
 -Why did you build this project? This module was created to access and manage employee data, offering a solution for those who need to interact with and modify information.
+
 -What problem does it solve? This project addresses the challenge of memorizing and maintaining employee data by providing a platform for storing and managing data when necessary.
+
 -What did you learn? Throughout this module, I deepened my understanding of SQL, specifically increasing my knowledge in using commands like UPDATE, SELECT, and INSERT to change and retrieve data.
 
 ##Video 
