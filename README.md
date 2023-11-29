@@ -1,9 +1,9 @@
 # Rileys-Employee-Tracker
 
 ## Description
--What was your motivation? My motivation to enhance my understanding of SQL while creating a tool beneficial for employers.
+-What was your motivation? What motivated me was to enhance my understanding of SQL while creating a tool beneficial for employers.
 
--Why did you build this project? This module was created to access and manage employee data, offering a solution for those who need to interact with and modify information.
+-Why did you build this project? This project was created to access and manage employee data, offering a solution for those who need to interact with and modify information.
 
 -What problem does it solve? This project addresses the challenge of memorizing and maintaining employee data by providing a platform for storing and managing data when necessary.
 
