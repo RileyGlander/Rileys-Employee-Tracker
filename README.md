@@ -9,7 +9,7 @@
 
 -What did you learn? Throughout this module, I deepened my understanding of SQL, specifically increasing my knowledge in using commands like UPDATE, SELECT, and INSERT to change and retrieve data.
 
-##Video 
+## Video 
 
 ## Installation
 You can install this with git bash by typing in 'git clone Replace this with link' to wherever you want the repository to be installed on your computer.
