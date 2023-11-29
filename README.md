@@ -1,21 +1,18 @@
 # Rileys-Employee-Tracker
 
 ## Description
-- What was your motivation? 
-- Why did you build this project? 
-- What problem does it solve? 
-- What did you learn?
+-What was your motivation? My motivation to enhance my understanding of SQL while creating a tool beneficial for employers.
+-Why did you build this project? This module was created to access and manage employee data, offering a solution for those who need to interact with and modify information.
+-What problem does it solve? This project addresses the challenge of memorizing and maintaining employee data by providing a platform for storing and managing data when necessary.
+-What did you learn? Throughout this module, I deepened my understanding of SQL, specifically increasing my knowledge in using commands like UPDATE, SELECT, and INSERT to change and retrieve data.
 
+##Video 
 
 ## Installation
 You can install this with git bash by typing in 'git clone Replace this with link' to wherever you want the repository to be installed on your computer.
 
 ## Usage
-You can use this by getting the repository downloaded with the instructions above. You can then open it with Visual Studio Code. From there you want to right click on 
-
-## Known Issues
-
-
+Download the repository using the instructions provided above. Open the repository in Visual Studio Code. Right-click on 'server.js' and select 'Open in Integrated Terminal.' In the terminal, type 'node server.js' to start the application and view the available options. Choose from the available options and change or add data based on the option that is selected."
 
 ## Credits
 Zachary B. (2023, April 13). Employee tracker - module 12 rut-bootcamp. YouTube. https://www.youtube.com/watch?v=KgS2bjlOWXs 
