@@ -1,15 +1,16 @@
 # Rileys-Employee-Tracker
 
 ## Description
--What was your motivation? What motivated me was to enhance my understanding of SQL while creating a tool beneficial for employers.
+- What was your motivation? What motivated me was to enhance my understanding of SQL while creating a tool beneficial for employers.
 
--Why did you build this project? This project was created to access and manage employee data, offering a solution for those who need to interact with and modify information.
+- Why did you build this project? This project was created to access and manage employee data, offering a solution for those who need to interact with and modify information.
 
--What problem does it solve? This project addresses the challenge of memorizing and maintaining employee data by providing a platform for storing and managing data when necessary.
+- What problem does it solve? This project addresses the challenge of memorizing and maintaining employee data by providing a platform for storing and managing data when necessary.
 
--What did you learn? Throughout this module, I deepened my understanding of SQL, specifically increasing my knowledge in using commands like UPDATE, SELECT, and INSERT to change and retrieve data.
+- What did you learn? Throughout this module, I deepened my understanding of SQL, specifically increasing my knowledge in using commands like UPDATE, SELECT, and INSERT to change and retrieve data.
 
 ## Video 
+https://drive.google.com/file/d/1EkvMJ1IE3oIPdpAQW3Sl7TQx9oX3RAc9/view
 
 ## Installation
 You can install this with git bash by typing in 'git clone Replace this with link' to wherever you want the repository to be installed on your computer.
