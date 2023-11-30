@@ -102,7 +102,7 @@ function addRole() {
     const roleSalary = results.role_salary;
     const roleDepartment = results.role_department;
     console.log(results.name);
-    db.query('INSERT INTO role (name, salary, department) VALUES (?)', [roleName, roleSalary, roleDepartment], (err, results) => {
+    db.query('INSERT INTO role (name, salary, department) VALUES (?, ?, ?)', [roleName, roleSalary, roleDepartment], (err, results) => {
       if (err) {
         console.log("Error adding role to the database", err);
       } else {
@@ -183,15 +183,26 @@ function updateEmployee() {
       type: "list",
       message: "Which employee do you want to update",
       name: "update_employee",
-      choices: "employeeChoices"
+      choices: employeeChoices
     },
     {
       type: "list",
       message: "Which role do you want to assign to the selected employee",
       name: "update_role",
-      choices: "roleChoices"
-    }
-      ])
+      choices: roleChoices
+    } 
+    
+    ]).then((results) => {
+      const employee_id = results.update_employee;
+      const roleId = results.update_role;
+      db.query('UPDATE employee SET role_id = ? WHERE id = ?', [roleId, employee_id], function (err, results) {
+        if (err) {
+          console.log("Error updating employee role in the database", err);
+          return;
+        }
+        console.log("Employee role updated successfully")
+      })
+      })
     });
   });
 }
