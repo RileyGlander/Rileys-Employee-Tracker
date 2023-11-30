@@ -140,7 +140,7 @@ function addEmployee() {
     const lastName = results.last_name;
     const employeeRole = results.employee_role;
     const managerName = results.manager_name;
-    db.query('INSERT INTO employee (first_name, last_name, employee_role, manager_name) VALUES (?)', [firstName, lastName, employeeRole, managerName], (err, results) => {
+    db.query('INSERT INTO employee (first_name, last_name, employee_role, manager_name) VALUES (?, ?, ?, ?)', [firstName, lastName, employeeRole, managerName], (err, results) => {
       if (err) {
         console.log("Error adding employee to the database", err);
       } else {
